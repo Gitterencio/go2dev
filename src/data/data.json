@@ -1,5 +1,5 @@
 [
-  { "name": "ODOO18 - serveo", "url": "https://odoo18-oniondev.serveo.net/" },  { "name": "ODOO18 - serveo", "url": "https://odoo18-oniondev.serveo.net/" },
+  { "name": "ODOO18 - serveo", "url": "https://odoo18-oniondev.serveo.net/" },
   { "name": "MAIN WEB - serveo", "url": "https://main-oniondev.serveo.net/" },
   { "name": "MAIN WEB - ngrok", "url": "https://oddly-bursting-crow.ngrok-free.app/" }
 ]
