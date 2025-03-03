@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1200px;  /* Límite de ancho para las filas */
+    margin: 0 auto; /* Centra el contenedor */
+    background-color: #333; /* Color más oscuro para el área restante */
+    padding: 10px; /* Relleno alrededor de los botones */
+    height: 500px; /* Altura fija para el área */
+    min-height: 500px; /* Asegura que no sea más pequeño que esta altura */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+    flex-basis: 22%; /* Hace que cada botón ocupe aproximadamente el 22% del ancho */
+    max-width: 22%;  /* Asegura que no se haga más grande que el 22% */
+    box-sizing: border-box;
+    background-color: #f4a261; /* Color de fondo de los botones */
+    color: #fff;  /* Color del texto */
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}

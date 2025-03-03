@@ -3,23 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirección Automática</title>
+    <title>Oniondev - GO2DEV</title>
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
-    <script>
-        // Función para cargar el JSON y redireccionar
-        function redireccionar() {
-            fetch('data.json')
-                .then(response => response.json())
-                .then(data => {
-                    // Redireccionar a la URL especificada en el JSON
-                    window.location.href = data.url;
-                })
-                .catch(error => console.error('Error al cargar el JSON:', error));
-        }
+    <h2>Oniondev - GO2DEV</h2>
+    <div class="button-container" id="buttonContainer"></div>
 
-        // Llamar a la función de redirección cuando la página cargue
-        window.onload = redireccionar;
-    </script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>

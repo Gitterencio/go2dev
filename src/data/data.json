@@ -1,0 +1,5 @@
+[
+  { "name": "ODOO18 - serveo", "url": "https://odoo18-oniondev.serveo.net/" },
+  { "name": "MAIN - serveo", "url": "https://main-oniondev.serveo.net/" },
+  { "name": "MAIN - ngrok", "url": "https://oddly-bursting-crow.ngrok-free.app/" }
+]
